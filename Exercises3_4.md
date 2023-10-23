@@ -4,7 +4,7 @@
 #### Exercise 3
 **Design a CI/CD and deployment plan to serve the final model in a cloud based production environment. This plan should include MLOps tools and KPIs monitoring and we don't expect you to implement any code here.**
 
-![schema_exercise3](https://github.com/rubenbarco/Centric-Pricing-Technical-Test/assets/43273092/238cf102-88ff-49f6-9f59-8c34791f3d12)
+There is an image with name `schema_exercise3.jpg` in which we can see the schema of the proposed environment.
 
 Fist of all we need a Development Environment. Here we can work by creating new branches. There are two steps:
 1. The first one is to work using Jupyter Notebooks in combination with FS (File System in cloud environments), SQL Databases or Blob Storages (in Azure) for example.
@@ -24,7 +24,7 @@ Both Pipelines can be automatized using for example AirFlow or with a Job in Azu
 #### Exercise 4
 **Let’s imagine that now you have to load the product images from our database along with some additional text features like the product description provided by the retailers. The data is stored in an SQL relational database (postgresql) with the following schema:**
 
-<img width="548" alt="Captura de pantalla 2023-10-23 001224" src="https://github.com/rubenbarco/Centric-Pricing-Technical-Test/assets/43273092/5fe2b477-db7e-4669-a376-af3b62626add">
+*There is a photo with name `sql_exercise4.png` with the database squema*
 
 **Write a query (either in django ORM or in SQL) to extract, for every existing product, the following fields:**
 1. **Product.Title**:
